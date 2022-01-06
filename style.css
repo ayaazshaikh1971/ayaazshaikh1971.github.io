@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:ital,wght@1,300&family=Ubuntu+Mono&display=swap');
+
+*{
+    font-family: 'Ubuntu Mono', monospace;
+}
+img{
+    filter: grayscale(100%);
+
+}
+
+#main-page{
+    background-image: url(./Images/Main-image.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+#main-page .col-md-6{
+    margin: 240px 0 0 0;
+    
+}
+
+
+
+#about{
+    margin-top: 60px;
+    margin-top: 60px;
+   
+}
+
+.card-hover{
+    transition: 0.5s ease-in-out;
+    border: none;
+    
+}
+
+.card-hover:hover{
+    cursor: pointer;
+    color: teal;
+}
+
+.social li{
+    list-style: none;
+}
+
+#about-more .container .row .col-md-4 img{
+    border: none !important;
+    }
+
+#about-more i{
+    font-size: 20px;
+}
+
+#about-more{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+}
+
+#blog .container .row .designs img{
+    height: 300px;
+    width: 240px;
+    
+}
+
+#blog .container .row .designs{
+    margin: 10px 35px;
+}
+
+#blog{
+    margin-top: 60px;
+    margin-bottom: 60px;
+   
+}
+
+.part2{
+    margin-top: 70px;
+}
+
+#contact{
+    margin-top: 60px;
+    
+    background-color: rgba(128, 128, 128, 0.288);
+}
+
+.g-top{
+    
+    
+    z-index: 1;
+}
+
+.g-top a{
+    color: rgb(156, 48, 48);
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    height: 35px;
+    width: 35px;
+    background-color: teal;
+}
+
+.g-top a i{
+    /* height: 35px;
+    width: 35px; */
+    /* border-radius: 50px; */
+    /* background-color: black; */
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
